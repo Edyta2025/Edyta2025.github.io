@@ -1,0 +1,51 @@
+.body {
+  background-color: aqua;
+  color: black;
+  font-family: Arial;
+  text-align: center;
+}
+
+.lisiItem {
+  margin: 6px 0;
+}
+.list {
+  list-style-type: square;
+  list-style-position: inside;
+  padding-left: 0;
+  margin: 0 auto;
+  display: inline-block;
+  text-align: left; /* żeby tekst listy był wyrównany do lewej w środku */
+}
+
+.flexContainer {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+@media screen and (max-width: 480px) {
+  .flexContainer {
+    flex-direction: column;
+  }
+}
+.title {
+  text-shadow: 2px 2px 2px #a06e6e;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+}
+.keyWord {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.img {
+  display: block;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.article {
+  max-width: 800px;
+}
