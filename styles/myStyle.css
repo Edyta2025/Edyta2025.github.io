@@ -1,5 +1,5 @@
 .body {
-  background-color: aqua;
+  background-color: rgb(220, 242, 242);
   color: black;
   font-family: Arial;
   text-align: center;
@@ -28,7 +28,7 @@
   }
 }
 .title {
-  text-shadow: 2px 2px 2px #a06e6e;
+  text-shadow: 2px 2px 2px #6c6a6a;
 }
 
 .link {
