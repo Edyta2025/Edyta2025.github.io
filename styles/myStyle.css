@@ -5,6 +5,10 @@
   text-align: center;
 }
 
+.divider {
+  padding: 16px 0;
+}
+
 .lisiItem {
   margin: 6px 0;
 }
@@ -15,6 +19,9 @@
   margin: 0 auto;
   display: inline-block;
   text-align: left; /* żeby tekst listy był wyrównany do lewej w środku */
+}
+.list.modify {
+  list-style-type: none;
 }
 
 .flexContainer {
